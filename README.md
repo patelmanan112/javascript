@@ -1,1 +1,1 @@
-link :[CodingGIta](https://codinnggita.com)
+link :[CodingGIta](https://codinggita.com)
