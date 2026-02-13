@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video src="WhatsApp Video 2025-11-01 at 15.33.21_5e95986b.mp4" autoplay muted loop class="video"></video>
+    <div class="container">
+   
+        <h1>Click Counter Game</h1>
+        <p class="subtitle">Click as fast as you can!</p>
+
+
+        <!-- score display section  -->
+        <div class="score-section">
+            <div class="score-box">
+                <h2>Current Score</h2>
+                <div id="currentScore" class="score">0</div>
+            </div>
+            <div class="score-box">
+                <h2>High Score</h2>
+                <div id="highScore" class="score">0</div>
+            </div>
+        </div>
+
+        <!-- time delay  -->
+
+        <div class="timer-section">
+            <h2>TIME Remaining</h2>
+            <div class="timer" id="timer">10</div>
+        </div>
+
+        <!-- game button  -->
+        <div class="button-section">
+            <button class="click-btn" id="clickButton" disabled>Click Me!</button>
+            <button id="startButton" class="start-btn"> Start Game</button>
+            <button class="reset-btn" id="resetButton">Reset High Score</button>
+        </div>
+
+          <div class="button_pause">
+            <button class="button_to_pause" id="pause_button">PAUSE</button>
+            <button class="button_to_pause" id="resume_button" disabled>RESUME</button>
+        </div>
+        <!-- game status message  -->
+        <div class="status-message" id="statusMessage">Click "Start Game " to begin</div>
+ 
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

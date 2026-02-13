@@ -1,0 +1,19 @@
+/* .win{
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    width: 400px;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+}
+.btn:disabled{
+    cursor: not-allowed;
+} */
